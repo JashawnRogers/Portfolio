@@ -12,9 +12,9 @@
     <header class="hero">
         <nav>
             <ul class="header-ul">
-                <li><a href="#"><img src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" alt="Link to my Github profile."></a></li>
-                <li><a href="#"><img class="email-icon"  src="./images/mail-64.png" alt="E-mail"></a></li>
-                <li><a href="#"><img class="linkedin-icon" src="./images/icons8-linkedin-64.png" alt="Linkedin"></a></li>
+                <li class="grow"><a href="https://github.com/JashawnRogers/"><img src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" alt="Link to my Github profile."></a></li>
+                <li class="grow"><a href="mailto: rogersjashawn20@gmail.com"><img class="email-icon"  src="./images/mail-64.png" alt="E-mail"></a></li>
+                <li class="grow"><a href="https://www.linkedin.com/in/jashawn-rogers-522771208/"><img class="linkedin-icon" src="./images/icons8-linkedin-64.png" alt="Linkedin"></a></li>
             </ul>
         </nav>
         
@@ -25,19 +25,19 @@
         </div>
 
         <div class="continue">
-           <button onclick="window.location.href='#';"  class="continue-btn">
+           <button onclick="window.location.href='#about';"  class="continue-btn">
                 <img src="./images/chevron-arrow-100.png" alt="continue">
            </button>
         </div>
     </header>
 
 
-    <section class="about-section">
+    <section class="about-section" id="about">
         <nav class="page-nav">
             <ul class="page-ul">
-                <li class="page-li"><a class="page-ul-text"  href="#">About</a></li>
-                <li class="page-li"><a class="page-ul-text"  href="#">Projects</a></li>
-                <li class="page-li"><a class="page-ul-text"  href="#">Contact</a></li>
+                <li class="page-li"><a class="page-ul-text"  href="#about">About</a></li>
+                <li class="page-li"><a class="page-ul-text"  href="#project-section">Projects</a></li>
+                <li class="page-li"><a class="page-ul-text"  href="#contact-section">Contact</a></li>
             </ul>
         </nav>
 
@@ -54,7 +54,7 @@
         </article>
     </section>
 
-    <section class="project-section">
+    <section id="project-section">
         <h2 class="title section-title">PROJECTS</h2>   
 
         <div class="projects">
@@ -90,7 +90,19 @@
                 </div>
             </article>
         </div>
+    </section>
 
+    <section id="contact-section">
+        <h2 class="title section-title">CONTACT</h2>
+
+        <div class="form-container">
+            <form>
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="E-mail">
+                <textarea id="message" placeholder="Your Message" rows="4" cols="50"></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
     </section>
 </body>
 </html>
