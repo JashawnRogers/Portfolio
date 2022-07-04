@@ -1,0 +1,69 @@
+header{
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 15px;
+}
+
+.header-ul > li {
+    margin: 0px 10px;
+}
+
+.greeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: whitesmoke;
+
+    padding-top: 30vh;
+}
+ .hello, .name {
+    font-size: 2.75rem;
+ }
+
+
+ .continue {
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+
+    animation: bounce 1.5s infinite ease-in-out;
+ }
+
+ .continue-btn {
+    background-color: transparent;
+    border: none;
+ }
+
+ .continue-btn:hover {
+    cursor: pointer;
+ }
+ 
+
+ @keyframes bounce {
+    0%,
+
+    50% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+ }
+
+
+
+
+
+
+
