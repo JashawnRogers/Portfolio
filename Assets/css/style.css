@@ -24,7 +24,7 @@ header{
 
     padding-top: 30vh;
 }
- .hello, .name {
+ .title {
     font-size: 2.75rem;
  }
 
@@ -62,8 +62,52 @@ header{
  }
 
 
+/* SITE NAV */
+.page-ul {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #3d3d3d;
+}
+
+.page-li {
+    padding: 10px;
+}
+.page-ul-text {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
 
 
+.pic-of-me {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
 
+.pic {
+    display: flex;
+    justify-content: center;
+}
 
+.section-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
 
+.about-me-text {
+    
+    margin: 0 25%;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    line-height: 2;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
